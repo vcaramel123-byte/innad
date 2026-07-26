@@ -28,7 +28,7 @@ const Card = () => {
     }
     ]
   return (
-    <div className="max-w-full p-6">
+    <div className="max-w-full p-6 p-10">
       <div className="parent w-full grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center justify-items-center items-center">
         {cardWeb.map((isi) => (
         <div key={isi.id} className={isi.layOut}>
