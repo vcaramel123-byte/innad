@@ -28,7 +28,6 @@ export default function CeritaPage() {
 
   return (
     <div className="cerita-bg-container bg-animasi-scroll cerita-container relative min-h-screen transition-colors duration-300">
-      
       {/* SCROLL 1: JUDUL */}
       <section className="relative h-screen w-full flex items-center justify-center">
         <div className="flex flex-col items-center text-center max-w-4xl px-6">
@@ -65,6 +64,7 @@ export default function CeritaPage() {
 
       {/* SCROLL 4: LANJUTAN TEKS */}
       <section className="scroll-section-4 relative h-[150vh]">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#c6dceb" fillOpacity="1" d="M0,288L60,261.3C120,235,240,181,360,149.3C480,117,600,107,720,112C840,117,960,139,1080,149.3C1200,160,1320,160,1380,160L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
         <div className="sticky top-0 h-screen w-full flex items-center justify-center px-6 md:px-12 overflow-hidden">
           <div className="animated-content max-w-2xl text-left font-serif text-xl md:text-2xl leading-relaxed opacity-90">
             <p className='font-fredoka'>
@@ -72,6 +72,7 @@ export default function CeritaPage() {
             </p>
           </div>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00ffd5" fillOpacity="1" d="M0,96L120,117.3C240,139,480,181,720,181.3C960,181,1200,139,1320,117.3L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
       </section>
 
       {/* SCROLL 5: LANJUTAN TEKS 2 */}
@@ -168,7 +169,7 @@ export default function CeritaPage() {
           </div>
         </div>
       </section>
-
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a3e9e5" fillOpacity="1" d="M0,96L60,101.3C120,107,240,117,360,101.3C480,85,600,43,720,58.7C840,75,960,149,1080,165.3C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
     </div>
   );
 }

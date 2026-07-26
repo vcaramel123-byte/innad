@@ -89,7 +89,6 @@ function page() {
           Love exists due to feelings of affection, mutual protection, respect, and sincerity. 
           Meanwhile, a song exists because of the emotional feelings of the musician."
         </i>
-        {/* Kalau mau nambah teks di baris kedua, taruh di bawah sini */}
       </div>
 
       {/* Lirik Kiri */}

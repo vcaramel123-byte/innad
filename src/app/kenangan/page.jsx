@@ -66,7 +66,6 @@ function Page() {
           <Heart width={80} height={80} className="transform bg-pink-500 text-white border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] rotate-20 border-4 p-3"/>
         </div>
       </section>
-
       {/* Grid Card Kenangan (Hanya merender data halaman aktif) */}
       <div className="max-w-7xl z-10 mx-auto mt-3 py-16 px-6 sm:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
         {currentItems.map((isi) => (
@@ -126,6 +125,7 @@ function Page() {
       )}
 
       <Pattern />
+       <svg className="z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e5ff00" fillOpacity="1" d="M0,288L0,224L68.6,224L68.6,192L137.1,192L137.1,224L205.7,224L205.7,224L274.3,224L274.3,192L342.9,192L342.9,224L411.4,224L411.4,64L480,64L480,160L548.6,160L548.6,288L617.1,288L617.1,64L685.7,64L685.7,192L754.3,192L754.3,160L822.9,160L822.9,192L891.4,192L891.4,288L960,288L960,160L1028.6,160L1028.6,224L1097.1,224L1097.1,96L1165.7,96L1165.7,288L1234.3,288L1234.3,96L1302.9,96L1302.9,128L1371.4,128L1371.4,0L1440,0L1440,320L1371.4,320L1371.4,320L1302.9,320L1302.9,320L1234.3,320L1234.3,320L1165.7,320L1165.7,320L1097.1,320L1097.1,320L1028.6,320L1028.6,320L960,320L960,320L891.4,320L891.4,320L822.9,320L822.9,320L754.3,320L754.3,320L685.7,320L685.7,320L617.1,320L617.1,320L548.6,320L548.6,320L480,320L480,320L411.4,320L411.4,320L342.9,320L342.9,320L274.3,320L274.3,320L205.7,320L205.7,320L137.1,320L137.1,320L68.6,320L68.6,320L0,320L0,320Z"></path></svg>
       <Footer />
     </div>
   )
