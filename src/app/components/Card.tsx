@@ -28,11 +28,11 @@ const Card = () => {
     }
     ]
   return (
-    <div className="max-w-full p-6 p-10">
-      <div className="parent w-full grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center justify-items-center items-center">
+    <div className="max-w-full p-6 p-8">
+      <div className="parent w-full grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center justify-items-center items-center">
         {cardWeb.map((isi) => (
         <div key={isi.id} className={isi.layOut}>
-          <h3 className="font-bold text-xl mb-2">{isi.judul}</h3>
+          <h3 className="font-bold text-lg md:text-xl mb-2">{isi.judul}</h3>
           <p className="text-sm opacity-90 line-clamp-6">{isi.keterangan}</p>
           <img src={isi.icon} alt="icon" width={100} height={100}/>
         </div>
