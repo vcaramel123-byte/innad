@@ -26,6 +26,8 @@ function Page() {
     { id: 14, judul: 'Kenangan 14', foto: '/kenangan_2/8.svg', style: 'bg-orange-600' },
     { id: 15, judul: 'Kenangan 15', foto: '/kenangan_2/9.svg', style: 'bg-yellow-400' },
     { id: 16, judul: 'Kenangan 16', foto: '/kenangan_2/10.svg', style: 'bg-green-700' },
+    { id: 17, judul: 'Agustus Pertama', foto: '/i&n17.svg', style: 'bg-emerald-700' },
+
   ]
 
   // 2. State & Logika Pagination
