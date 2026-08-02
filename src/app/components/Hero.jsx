@@ -57,8 +57,7 @@ const Hero = () => {
   }, { scope: container });
 
   return (
-    <main className='hero-image-container p-6 md:p-12 max-w-7xl mx-auto w-full flex flex-col justify-center items-center gap-12 mt-30' ref={container}>
-      
+    <main className='hero-image-container p-6 md:p-12 max-w-7xl mx-auto w-full flex flex-col justify-center items-center gap-12 md:mt-0 mt-10' ref={container}>
       <div className="parent-hero w-full h-85 flex flex-col justify-center items-center bg-emerald-700 shadow-md rounded-lg">
         <div className="text flex flex-col gap-2 p-2">
           <h1 className="animate-title font-cinzel text-4xl text-center text-emerald-600">

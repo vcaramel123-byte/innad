@@ -5,25 +5,25 @@ const Card = () => {
     {id:1, 
         judul:'Di saat aKu jatuh cinta', 
         keterangan: 'Cinta pertama dan terakhir, perasaan yang mengalir, pandangan dan tatapan pertama, di saat itu aku sadar bahwa aku sedang jatuh cinta.',
-        layOut:'bg-gradient-to-r from-emerald-400 to-purple-300 card w-95 h-72 p-5 text-white rounded-lg shadow-lg ',
+        layOut:'bg-gradient-to-r from-emerald-400 to-purple-300 card w-auto h-72 p-5 text-white rounded-lg shadow-lg ',
         icon:'/aset/heart.gif'
     },
     {id:2, 
         judul:'Memory bersamanya', 
         keterangan:'Banyak kenangan indah yang kita lalui bersama suka maupun duka, senang dan sedih galau dan ceria, semuanya kita lalui bersama dengan canda dan tawa.',
-        layOut:'bg-gradient-to-r from-green-400 to-orange-300 card w-95 h-72 p-5 text-white rounded-lg shadow-lg ',
+        layOut:'bg-gradient-to-r from-green-400 to-orange-300 card w-auto h-72 p-5 text-white rounded-lg shadow-lg ',
         icon:'/aset/camera.gif'
     },
     {id:3, 
         judul:'Pesan dan kesan pertama', 
         keterangan:'Pertemuan pertama kita adalah takdir terindah. Satu senyumanmu di hari itu sudah cukup untuk membuatku yakin bahwa kamulah orangnya.',
-        layOut:'bg-gradient-to-r from-yellow-600 to-blue-300 card w-95 h-72 p-5 text-white rounded-lg shadow-lg ',
+        layOut:'bg-gradient-to-r from-yellow-600 to-blue-300 card w-auto h-72 p-5 text-white rounded-lg shadow-lg ',
         icon:'/aset/picture.gif'
     },
     {id:4, 
         judul:'Mekar dalam kenangan, abadi dalam hati', 
         keterangan:'Karena bersamamu, hal-hal sederhana berubah menjadi kenangan yang luar biasa. Kamu adalah keindahan yang mekar di hidupku dan keahagiaan yang abadi di hatiku.',
-        layOut:'bg-gradient-to-r from-emerald-800 to-purple-600 card w-95 h-72 p-5 text-white rounded-lg shadow-lg',
+        layOut:'bg-gradient-to-r from-emerald-800 to-purple-600 card w-auto h-72 p-5 text-white rounded-lg shadow-lg',
         icon:'/aset/flower.gif'
     }
     ]
