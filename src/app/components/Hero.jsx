@@ -60,7 +60,7 @@ const Hero = () => {
     <main className='hero-image-container p-6 md:p-12 max-w-7xl mx-auto w-full flex flex-col justify-center items-center gap-12 md:mt-0 mt-10' ref={container}>
       <div className="parent-hero w-full h-85 flex flex-col justify-center items-center bg-emerald-700 shadow-md rounded-lg">
     <div className="max-w-7xl flex absolute left-3 md:top-40 top-40 sm:top-2">
-<div className="card z-100">
+<div className="card z-999">
   <div className="wrap">
     <div className="terminal">
       <hgroup className="head">
