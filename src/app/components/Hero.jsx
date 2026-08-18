@@ -108,7 +108,7 @@ const Hero = () => {
       </hgroup>
 
       <div className="body">
-        <pre className="pre">          <code>-&nbsp;</code>
+        <pre className="pre"> <code>-&nbsp;</code>
           <code>Tanggal & bulan 
             <br />
             Jadian&nbsp;</code>
