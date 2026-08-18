@@ -68,7 +68,7 @@ const Hero = () => {
           <svg
             width="16px"
             height="16px"
-            ariaHidden="true"
+            aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             strokeLinejoin="round"
@@ -84,11 +84,11 @@ const Hero = () => {
           indra ❤️ nadia
         </p>
 
-        <button className="copy_toggle" tabindex="-1" type="button">
+        <button className="copy_toggle" tablndex="-1" type="button">
           <svg
             width="16px"
             height="16px"
-            ariaHidden="true"
+            aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             strokeLinejoin="round"
@@ -109,7 +109,7 @@ const Hero = () => {
 
       <div className="body">
         <pre className="pre">          <code>-&nbsp;</code>
-          <code>Agustus First&nbsp;</code>
+          <code>Tanggal & bulan Jadian&nbsp;</code>
           <code className="cmd" data-cmd="17.08.2026"></code>
         </pre>
       </div>

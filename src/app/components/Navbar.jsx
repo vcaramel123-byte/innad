@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
 
-    <div className="w-full bg-gradient-to-l from-white/80 to-purple-500 backdrop-blur-md p-4 fixed top-0 left-0 z-100 flex flex-col items-center">
+    <div className="w-full bg-gradient-to-l from-white/80 to-purple-500 backdrop-blur-md p-4 fixed top-0 left-0 z-999 flex flex-col items-center">
       
       {/* Desktop & Main Navbar Wrapper */}
       <div className="w-full max-w-6xl bg-white/30 backdrop-blur border border-white/20 flex justify-between items-center py-4 px-6 rounded-3xl shadow-lg">
