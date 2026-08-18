@@ -108,7 +108,7 @@ const Hero = () => {
 
       <div className="body">
         <pre className="pre"> <code>-&nbsp;</code>
-          <code> Tanggal <br /> & <br /> Bulan <br /> Jadian <span> _ </span> &nbsp;</code>
+          <code> Tanggal <br /> & <br /> Bulan <br /> Jadian <span></span> &nbsp;</code>
           <code className="cmd" data-cmd="17.08.2026"></code>
         </pre>
       </div>
