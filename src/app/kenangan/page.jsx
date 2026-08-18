@@ -100,7 +100,6 @@ function Page() {
           </div>
         )}
       </div>
-
       {/* 3. Komponen Tombol Pagination Bergaya Neo-brutalist */}
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-4 my-10 z-50">
