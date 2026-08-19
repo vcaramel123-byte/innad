@@ -60,7 +60,7 @@ const Footer = () => {
       <div className="body">
         <pre className="pre"> <code>-&nbsp;</code>
           <code className="flex flex-col md:flex-row md:gap-2"> <span>Tanggal</span> <span>&</span> <span>Bulan</span> <span>Jadian</span>  <span></span> &nbsp;</code>
-          <code className="cmd" data-cmd="(17/8/20026)"></code>
+          <code className="cmd" data-cmd="(17/8/2026)"></code>
         </pre>
       </div>
     </div>
