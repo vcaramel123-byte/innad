@@ -24,7 +24,7 @@ const Navbar = () => {
           <li><a href="/kenangan" className="hover:text-blue-500 transition-colors">Kenangan</a></li>
           <li><a href="/cerita" className="hover:text-blue-500 transition-colors">Cerita</a></li>
           <li><a href="/musik" className="hover:text-blue-500 transition-colors">Musik</a></li>
-          <li><a href="/tanggal" className="hover:text-blue-500 transition-colors">Tanggal Pentingk</a></li>
+          <li><a href="/tanggal" className="hover:text-blue-500 transition-colors">Tanggal Penting</a></li>
         </ul>
 
         {/* Tombol Hamburger: Hanya muncul di mobile (md:hidden) */}
