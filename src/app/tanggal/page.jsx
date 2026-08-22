@@ -99,15 +99,24 @@ const Page = () => {
     <div>
       <Navbar />
       <main className="p-5 flex flex-col items-center">
-        <h1 className="font-roboto text-center font-extrabold text-2xl mt-12 mb-8">
+
+        <div className="container flex flex-col mt-20 items-center justify-center">   
+        <h1 className="text-center font-extrabold text-2xl mt-12 mb-8">
           Tanggal Terpenting Kita
         </h1>
+          <div className="container max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center">
+         
+          <div className="flex justify-center">
+            <Calendar
+              mode="single"
+              selected={date}
+              onSelect={setDate}
+              className="rounded-md border shadow-sm"
+              captionLayout="dropdown"
+            />
+          </div>
 
-        {/* Layout Grid Responsif */}
-        <div className="container max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          
-          {/* Sisi Kiri: Carousel */}
-          <div className="flex justify-center px-10">
+           <div className="flex justify-center px-10">
             <Carousel className="w-full max-w-xs">
               <CarouselContent>
                 {MOMEN_KITA.map((momen, index) => (
@@ -122,16 +131,6 @@ const Page = () => {
               <CarouselNext />
             </Carousel>
           </div>
-
-          {/* Sisi Kanan: Calendar */}
-          <div className="flex justify-center">
-            <Calendar
-              mode="single"
-              selected={date}
-              onSelect={setDate}
-              className="rounded-md border shadow-sm"
-              captionLayout="dropdown"
-            />
           </div>
 
         </div>

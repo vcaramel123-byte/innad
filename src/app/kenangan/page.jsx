@@ -8,7 +8,6 @@ import Pattern from "../components/Pattern"
 import './style.css'
 
 function Page() {
-  // 1. Gabungkan semua data kenangan ke dalam satu array terpusat
   const semuaKenangan = [
     { id: 1, judul: 'Kenangan 1', foto: '/kenangan/1.svg', style: 'bg-yellow-500' },
     { id: 2, judul: 'Kenangan 2', foto: '/kenangan/2.svg', style: 'bg-blue-500' },
