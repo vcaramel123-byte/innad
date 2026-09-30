@@ -107,12 +107,12 @@ const page = () => {
   ? kisah.slice(0, 1)
   : kisah.filter(m => m.halaman === filterKisah)
 
-  return (
+  return ( 
     <div className='flex justify-center items-center bg-pink-500 flex-col'>
       <main className="flex flex-col flex justify-center items-center max-w-full">
       <Navbar />
       <div className='mt-30 p-8 flex flex-col justify-center items-center'>
-        <div className="flex flex-wrap gap-2 text-xs mb-10">
+        <div className="flex flex-wrap gap-2 text-xs mb-10 bg-black p-6 shadow-md rounded-xl">
           {['kisah', 'pembuka', 'pengenalan', 'bab_1', 'bab_2.1', 'bab_2.2', 'bab_3', 'bab_4', 'bab_5', 'bab_6', 'bab_7', 'penutup' ].map((nad) => (
               <button key={nad} onClick={() => setFilterKisah(nad)} 
               className={`px-3 py-1 rounded-md border capitalize transition-all ${
@@ -128,7 +128,7 @@ const page = () => {
           <div className="grid grid-cols-1 w-full max-w-4xl justify-center items-center">
             {filter.map((stories) => (
               <div key={stories.id}>  
-            <Card className="w-full max-w-xl border-none p-0 shadow-none cursor-pointer mx-auto">
+            <Card className="w-full max-w-2xl border-none p-0 shadow-none cursor-pointer mx-auto">
               <MagicCard className="border-border border-b p-4 [.border-b]:pb-4">
                 <CardHeader>
                 
@@ -152,7 +152,6 @@ const page = () => {
       </div>
       </main>
       <Footer/>
-
     </div>
   )
 }
