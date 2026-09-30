@@ -24,6 +24,22 @@ const MOMEN_KITA = [
     title: "Tanggal & Bulan Cht Pertama",
     date: "(20/2/2026)",
   },
+  {
+    title: "Tanggal Confes",
+    date: "(27/2/2026)"
+  },
+  {
+    title: "Ulang Tahun Cimi",
+    date: "(31/12/2029)"
+  },
+  {
+    title: "Ulang Tahun Kutub",
+    date: "(05/10/2008)"
+  },
+  {
+    title: "Tanggal Balikan",
+    date: "(24/9/2026)"
+  }
 ]
 
 // 2. Komponen Terminal Kartu yang Dinamis
