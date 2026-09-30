@@ -125,28 +125,16 @@ const page = () => {
       <main className="flex flex-col flex justify-center items-center max-w-full">
       <Navbar />
       <div className='mt-25 p-8 flex flex-col justify-center items-center'>
-        <div className="flex flex-wrap gap-5 w-full max-w-xl text-xs mb-10 bg-black p-6 shadow-md rounded-xl">
-          {['kisah', 'pembuka', 'pengenalan', 'bab_1', 'bab_2.1', 'bab_2.2', 'bab_3', 'bab_4', 'bab_5', 'bab_6', 'bab_7', 'penutup' ].map((nad) => (
-              <button key={nad} onClick={() => setFilterKisah(nad)} 
-              className={`px-3 py-1 rounded-md border capitalize transition-all ${
-                filterKisah === nad
-                ? 'bg-cyan-500/20 text-cyan-300 border-cyan-700' 
-                : 'bg-slate-900 text-slate-400 border-slate-800 hover:border-slate-700'
-              }`}>
-                {nad}
-              </button>
-          ))}
-        </div>
 
-          <div className="grid grid-cols-1 w-full md:max-w-3xl max-w-5xl justify-center items-center p-4">
+          <div className="grid grid-cols-1 w-full md:max-w-3xl max-w-xl7 justify-center items-center p-4">
             {filter.map((stories) => (
-              <div key={stories.id}>  
+              <div key={stories.id} className="p-2">  
             <Card className="w-full max-w-2xl border-none p-0 shadow-none cursor-pointer mx-auto">
-              <MagicCard className="border-border border-b p-4 [.border-b]:pb-4">
-                <CardHeader> 
+              <MagicCard className="border-border border-b p-4 [.border-b]:pb-4 flex flex-col gap-5">
+                <CardHeader className="mb-3"> 
                   <CardTitle className="font-bold">{stories.judul}</CardTitle>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="mb-3">
                   <Image 
                     src={stories.cerita} 
                     alt={stories.judul} 
@@ -161,6 +149,20 @@ const page = () => {
               </div>
             ))}
           </div>
+
+        <div className="flex flex-wrap gap-3 w-full max-w-xl text-xs mb-10 bg-black p-4 shadow-md rounded-xl">
+          {['kisah', 'pembuka', 'pengenalan', 'bab_1', 'bab_2.1', 'bab_2.2', 'bab_3', 'bab_4', 'bab_5', 'bab_6', 'bab_7', 'penutup' ].map((nad) => (
+              <button key={nad} onClick={() => setFilterKisah(nad)} 
+              className={`px-3 py-1 rounded-md border capitalize transition-all ${
+                filterKisah === nad
+                ? 'bg-cyan-500/20 text-cyan-300 border-cyan-700' 
+                : 'bg-slate-900 text-slate-400 border-slate-800 hover:border-slate-700'
+              }`}>
+                {nad}
+              </button>
+          ))}
+        </div>
+
       </div>
       </main>
       <Footer/>
