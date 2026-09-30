@@ -126,12 +126,12 @@ const page = () => {
       <Navbar />
       <div className='mt-25 p-8 flex flex-col justify-center items-center'>
 
-          <div className="grid grid-cols-1 w-full md:max-w-3xl max-w-xl7 justify-center items-center p-4">
+          <div className="grid grid-cols-1 w-full md:max-w-3xl max-w-7xl justify-center items-center p-4">
             {filter.map((stories) => (
               <div key={stories.id} className="p-2">  
             <Card className="w-full max-w-2xl border-none p-0 shadow-none cursor-pointer mx-auto">
               <MagicCard className="border-border border-b p-4 [.border-b]:pb-4 flex flex-col gap-5">
-                <CardHeader className="mb-3"> 
+                <CardHeader className="mb-3 border border-b border-2 p-2"> 
                   <CardTitle className="font-bold">{stories.judul}</CardTitle>
                 </CardHeader>
                 <CardContent className="mb-3">
