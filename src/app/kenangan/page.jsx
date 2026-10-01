@@ -26,11 +26,15 @@ function Page() {
     { id: 15, judul: 'Kenangan 15', foto: '/kenangan_2/9.svg', style: 'bg-yellow-400' },
     { id: 16, judul: 'Kenangan 16', foto: '/kenangan_2/10.svg', style: 'bg-green-700' },
     { id: 17, judul: 'Agustus Pertama', foto: '/i&n17.svg', style: 'bg-emerald-700' },
+    { id: 18, judul: 'Kenangan 17', foto: '/kenangan_3/1.svg', style: 'bg-red-700' },
+    { id: 19, judul: 'Kenangan 18', foto: '/kenangan_3/2.svg', style: 'bg-blue-700' },
+    { id: 20, judul: 'Kenangan 19', foto: '/kenangan_3/3.svg', style: 'bg-pink-700' },
+    { id: 21, judul: 'Kenangan 20', foto: '/kenangan_3/4.svg', style: 'bg-cyan-700' },
   ]
 
   // 2. State & Logika Pagination
   const [currentPage, setCurrentPage] = useState(1)
-  const itemsPerPage = 6 // Kamu bisa ganti angka ini sesuka hati (misal tiap halaman mau tampil 3, 6, atau 9 data)
+  const itemsPerPage = 6 
 
   // Hitung total halaman
   const totalPages = Math.ceil(semuaKenangan.length / itemsPerPage)
@@ -94,6 +98,15 @@ function Page() {
             <h3 className="text-xl md:text-2xl font-black text-center tracking-wide uppercase mb-4">Video Momen</h3>
             <div className="flex-1 flex items-center justify-center overflow-hidden rounded-sm aspect-video">
               <video className="w-full h-full object-cover target-image" src="/video/1.mp4" controls={true}></video>
+            </div>
+          </div>
+        )}
+
+        {currentPage === totalPages && (
+          <div className="border-4 border-black p-5 w-full max-w-sm min-h-[420px] flex flex-col justify-between bg-white shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] duration-200">
+            <h3 className="text-xl md:text-2xl font-black text-center tracking-wide uppercase mb-4">Yang Paling Cantik</h3>
+            <div className="flex-1 flex items-center justify-center overflow-hidden rounded-sm aspect-video">
+              <video className="w-full h-full object-cover target-image" src="/kenangan_3/cantik.mp4" controls={true}></video>
             </div>
           </div>
         )}
