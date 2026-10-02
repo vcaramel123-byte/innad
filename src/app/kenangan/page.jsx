@@ -30,6 +30,10 @@ function Page() {
     { id: 19, judul: 'Kenangan 18', foto: '/kenangan_3/2.svg', style: 'bg-blue-700' },
     { id: 20, judul: 'Kenangan 19', foto: '/kenangan_3/3.svg', style: 'bg-pink-700' },
     { id: 21, judul: 'Kenangan 20', foto: '/kenangan_3/4.svg', style: 'bg-cyan-700' },
+    { id: 22, judul: 'Kenangan 21', foto: '/kenangan_3/5.svg', style: 'bg-purple-700' },
+    { id: 23, judul: 'Kenangan 22', foto: '/kenangan_3/6.svg', style: 'bg-red-700' },
+    { id: 24, judul: 'Kenangan 23', foto: '/kenangan_3/7.svg', style: 'bg-cyan-700' },
+    { id: 25, judul: 'Kenangan 24', foto: '/kenangan_3/8.svg', style: 'bg-blue-700' },
   ]
 
   // 2. State & Logika Pagination
